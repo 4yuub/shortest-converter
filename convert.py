@@ -1,10 +1,2 @@
-import sys
+exec(bytes('浩潰瑲猠獹ਊ潣敤㴠∠⸢潪湩猨獹献摴湩爮慥汤湩獥⤨਩潣敤⬠‽尢≮⨠⠠敬⡮潣敤☩⤱ਊ湥潣敤⁤‽潣敤攮据摯⡥甧✸⸩敤潣敤✨ㅵ✶਩琊浥汰瑡⁥‽攢數⡣祢整⡳┧❳✬ㅵ✶嬩㨲⥝ਢ瀊楲瑮琨浥汰瑡⁥‥攨据摯摥‬⤩ਊ','u16')[2:])
 
-code = "".join(sys.stdin.readlines())
-code += "\n" * (len(code)&1)
-
-encoded = code.encode('u8').decode('u16')
-
-template = "exec(bytes('%s','u16')[2:])"
-
-print(template % (encoded, ))
